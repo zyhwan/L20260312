@@ -41,6 +41,15 @@ int main()
 	int ChoseBallCount = 6;
 	int* Balls = new int[TotalBallCount];
 
+	int arr[10];
+	int* p = arr;
+
+	for (auto v : arr)
+	{
+
+	}
+
+
 	init(Balls, TotalBallCount);
 	Shuffle(Balls, TotalBallCount);
 	RandomChose(Balls, ChoseBallCount);
