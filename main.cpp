@@ -27,9 +27,9 @@ void Shuffle(int* Balls, int TotalBallCount)
 	}
 }
 
-void RandomChose(int* Balls, int TotalBallCount)
+void RandomChose(int* Balls, int ChoseBallCount)
 {
-	for (int i = 0; i < TotalBallCount; ++i)
+	for (int i = 0; i < ChoseBallCount; ++i)
 	{
 		cout << Balls[i] << " ";
 	}
